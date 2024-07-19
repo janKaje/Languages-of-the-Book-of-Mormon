@@ -1,8 +1,8 @@
 ## Overview
 
-This is a repository that contains the full text of the Book of Mormon in every language into which it has been fully translated (as long as it is on [churchofjesuschrist.org](https://www.churchofjesuschrist.org/study/scriptures/bofm)). As of yet, there are five languages which almost fit that description but are not on the Church's website, namely Sinhala, Arabic, Western Armenian, Hebrew, and Esperanto.
+This is a repository that contains the full text of the Book of Mormon in every spoken language into which it has been fully translated (as long as it is on [churchofjesuschrist.org](https://www.churchofjesuschrist.org/study/scriptures/bofm)). As of yet, there are four languages which almost fit that description but are not on the Church's website, namely Sinhala, Arabic, Western Armenian, and Hebrew. This repository is primarily meant to be an online data source for my other project, Book of Mormon Parallel Reader, but can be used as-is for many other purposes.
 
-Each file has the name of the corresponding 3-letter language code that the Church uses for their website and is saved in JSON format. An index of language names and codes is available under `_index.json`. 
+Each file has the name of the corresponding 3-letter language code that the Church uses for their website and is saved in JSON format. An index of language names and codes is available under `index.json`. 
 
 Each file contains a dictionary, where the keys are in the format `"<book> <chapter>"` and the values are the full text of the chapter, including titles, headers, summaries, and verse numbers, formatted with BBCode. The BBCode allows for all formatting on the Church's website to be displayed, including Japanese furigana.
 
@@ -22,7 +22,7 @@ The Church has a translation in Eastern Armenian available. A complete Western A
 ### Hebrew
 The Church of Jesus Christ of Latter-day Saints has not translated the Book of Mormon into Hebrew. The only Hebrew translation is printed by the Independent Restoration Branch and not available online.
 
-### Esperanto
-An online third-party translation into Esperanto is available for [download](https://poresperantamormonaro.weebly.com/uploads/8/2/9/5/8295099/la_libro_de_mormono_mobile.pdf) online. 
+## Other Issues
+The Church's Welsh translation follows the pre-1879 revision chapter and verse breaks, so much of `cym.json` is quite useless and adds lots of bulk to the file, and the rest of it follows a format most modern members of the Church are quite unfamiliar with.
 
-If you're interested in contributing by adding one of these other languages, or providing additional formats for the text, I would love to hear from you.
+If you're interested in contributing, I would love to hear from you! Open an issue or pull request or send me a message on Discord (@jankaje).
